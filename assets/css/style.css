@@ -1075,7 +1075,9 @@ body.active { overflow: hidden; }
    * HEADER
    */
 
-  .navbar-list { gap: 50px; }
+  .navbar-list { 
+    gap: 50px;
+  }
 
 
 

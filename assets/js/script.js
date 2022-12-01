@@ -54,7 +54,6 @@ const activeElemOnScroll = function () {
 window.addEventListener("scroll", activeElemOnScroll);
 
 
-
 // scroll reveal effect
 
 const revealElements = document.querySelectorAll("[data-reveal]");

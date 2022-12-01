@@ -60,12 +60,13 @@
   --fw-400: 400;
   --fw-500: 500;
   --fw-600: 600;
+  
 
   /**
    * spacing
    */
 
-  --section-padding: 70px;
+  --section-padding: 40px;
 
   /**
    * border radius
@@ -234,6 +235,11 @@ body.active { overflow: hidden; }
 .h2 { font-size: var(--fs-2); }
 
 .h3 { font-size: var(--fs-3); }
+
+.splide__slide img {
+  width: 100%;
+  height: auto;
+}
 
 .has-bg-image {
   background-repeat: no-repeat;
